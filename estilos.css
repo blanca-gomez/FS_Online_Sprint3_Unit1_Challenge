@@ -4,37 +4,32 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
 }  
-div{
-    display: flex;
-    justify-content: end;
-    color: #2BD9CC;
-}
 .menu{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px;
     background-color: white;   
 }
-.menu ul{
-    list-style: none;
-    color: #2BD9CC;
-    margin:0;
-    padding: 0;
-    text-align: center;
-}
-
-.menu li{
-    text-align: center;
-    margin: 0px 10px;
-    display: inline-block;
-}
-.menu h1{
+nav{
     display: flex;
-    justify-content: start;
+}
+form{
+    display: flex;
+}
+select{
+    border:none;
+    color: #2BD9CC;
+}
+h1{
+    text-align: left;
     font-size: 15px;
     font-weight: bold;
     margin: 0;
+}
+div{
+    display: flex;
+    text-align: right;
+    color: #2BD9CC;
 }
 .planet{
     color:blue;
@@ -77,4 +72,8 @@ div{
 }
 .etiqueta h4{
     color:#FA9FE7;
+}
+
+
+@media sreen and (max-width:480px){
 }
